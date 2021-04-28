@@ -9,6 +9,9 @@
 
 <!doctype html>
 <html lang="en">
+
+{% load static %}
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -62,9 +65,9 @@
                 <h1 class="fw-light">Vlad Udrescu</h1>
                 <p class="lead text-muted">look what I like to eat</p>
                 <p>
-                <a href="mailto:udrescumvlad@gmail.com" class="btn btn-primary my-2">Email me!</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                    <a href="mailto:udrescumvlad@gmail.com" class="btn btn-primary my-2">Email me!</a>
                 </p>
+                <img src="{% static 'vlad.jpg' %}" height="300"></img>
             </div>
             </div>
         </section>
